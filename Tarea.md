@@ -1,7 +1,9 @@
 # GIT Realiza todos los pasos que se sugieren en el documento y entrega en Aules un PDF con todas las capturas de pantalla que se solicitan, en total 12. La guía para seguir los diferentes apartados está aquí. 
 ## CONFIGURACIÓN DE GIT El primer paso de todos es introducir un nombre y un email, puesto que todas las acciones que hagamos en el repositorio tienen que tener un autor. ```git git config --global user.name "user_name" git config --global user.email "user_email" ``` Puedes ver los valores de configuración con: ``` git config --list ``` 1. Haz una captura de pantalla del archivo .gitconfig, donde aparezca los datos del usuario de Git en tu equipo. 
 
-## CREAR UN REPOSITORIO Crea un repositorio con un archivo **"fichero_1.php"**, el cual estará vacío cuando iniciemos el repositorio. ``` git init ``` Vemos en la consola de Git Bash que estamos situados en la rama Master. Renombramos la rama master por la rama main. ``` git branch -m main ``` 2. Captura de pantalla del nombre de la consola de Git con el nombre de la rama cambiado. ## BORRAR UN REPOSITORIO Para borrar un repositorio podemos emplear el siguiente comando: ``` rm -rf .git ``` 
+## CREAR UN REPOSITORIO Crea un repositorio con un archivo **"fichero_1.php"**, el cual estará vacío cuando iniciemos el repositorio. ``` git init ``` Vemos en la consola de Git Bash que estamos situados en la rama Master. Renombramos la rama master por la rama main. ``` git branch -m main ``` 2. Captura de pantalla del nombre de la consola de Git con el nombre de la rama cambiado. 
+
+## BORRAR UN REPOSITORIO Para borrar un repositorio podemos emplear el siguiente comando: ``` rm -rf .git ``` 
 
 ## GUARDAR CAMBIOS Para comprobar el estado de nuestro repositorio. ``` git status ``` Haz un commit llamado "Mi primer commit". Este commit será una versión de nuestro repositorio con únicamente el fichero **"fichero_1.php"** vacío. Ahora crea otro archivo **"fichero_2.php"** y haz un commit con el siguiente mensaje "Este es mi segundo commit". 
 
